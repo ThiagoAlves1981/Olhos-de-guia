@@ -54,26 +54,33 @@ main{
     text-align: center;
     font-size: 20px;
   }
+  #container{
+    display: flex;
+    height: 300px;
+  }
+  #form1{
+    width: 400px;
+    margin-left: 20px;
+  }
 
-  table{
+  #form2{
+    height: 100px;
+    margin-left: 150px;
+  }
+
+  #form2 > form>label {
     display: block;
+    margin-top: 4px;
   }
 
-  #form1> label{
-
-    display: inline;
-  }
-   
-  #form1>input{
-   display: inline;
+  #form2 > form>input {
+    display: block;
+    margin-top: 4px;
   }
 
-  #form2> label{
-    display: inline;
-  }
-
-  #form2>input{
-    display: inline;
+  #form2 > form>p {
+    display: block;
+    margin-top: 4px;
   }
 
   #final{
