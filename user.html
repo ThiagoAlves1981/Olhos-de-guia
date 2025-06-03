@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stye.css">
+  <link rel="stylesheet" href="style/stye.css">
   <title>Olhos de águia</title>
 </head>
 <body>
@@ -16,41 +16,35 @@
   </header>
   <main>
     <h2>NOME DO USER </h2>
-    <img src="foto user.jpg" alt="Foto do usuario" class="foto">
+    <img src="style/foto user.jpg" alt="Foto do usuario" class="foto">
     <p><i>Frase escolhida pelo user</i></p>
     <h3>
       Biografia
     </h3>
-    <table>
-      <tr>
-        <th>Form1</th>
-        <th>Form2</th>
-      </tr>
-      <tr>
-          <form id="form1" action="#" method="get">
-            <td><label for="bio"><p>Digite algo legal sobre você!</p></label></td>
-            <td><input id="bio" type="text" placeholder="Fale um poucco sobre você!" required></td>
-            <td><label for="mail"><p>Digite seu melhor email!</p></label></td>
-            <td><input id="mail" type="email" placeholder="xxxxx@yyyy.com" required></td>
-            <td><label for="tel"><p>Nos de um número para chamar!</p> </label></td>
-            <td><input id="tel" type="tel" placeholder="(xx) x xxxx- xxxx" max="11"></td>
-            <td><input type="submit" value="Enviar"></td>
-         </form>
-      </tr>
-  
-    <tr>
-      <td>
-        <form id="form2" action="#" method="get">
-          <td><label for="sex">Informe seu sexo!</label></td>
-          <td><input id="sex" type="checkbox" >Masculino</td>
-          <td><input id="sex" type="checkbox" >Feminino</td>
-          <td><label for="ida">Informe sua idade!</label></td>
-          <td><input id="ida" type="number" max="120"></td>
-          <input type="submit" value="Enviar">
-        </form>
-      </td>
-    </tr>
-    </table>
+      
+      <div id="container">
+        <div id="form1">
+          <form  action="#" method="get">
+            <label for="bio"><p>Digite algo legal sobre você!</p></label>
+            <input id="bio" type="text" placeholder="Fale um poucco sobre você!" required>
+            <label for="mail"><p>Digite seu melhor email!</p></label>
+            <input id="mail" type="email" placeholder="xxxxx@yyyy.com" required>
+            <label for="tel"><p>Nos de um número para chamar!</p> </label>
+            <input id="tel" type="tel" placeholder="(xx) x xxxx- xxxx" max="11">
+            <input type="submit" value="Enviar"></td>
+          </form>
+        </div>
+        <div id="form2">
+          <form  action="#" method="get">
+            <label for="sex"><p>Informe seu sexo!</p></label>
+            <input id="sex" type="checkbox" ><p>Masculino</p>
+            <input id="sex" type="checkbox" ><p>Feminino</p>
+            <label for="ida"><p>Informe sua idade!</p></label>
+            <input id="ida" type="number" max="120">
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+      </div>
 
     <h3>RANKING</h3>
 
