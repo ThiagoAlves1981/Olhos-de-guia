@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+:root{
+  --corfundobody: rgb(240, 251, 207);
+  --corfundoh1: rgb(108, 225, 108);
+  --corfundomain: rgb(216, 246, 216);
+
+}
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--corfundobody);
+    margin: 0px;
+    padding: 0px;
+  }
+
+main{
+  max-width: 800px;
+  display: block;
+  margin: auto ;
+  background-color: var(--corfundomain);
+  padding: 10px;
+}
+
+  h1{
+    background-color:var(--corfundoh1);
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+
+  h2{
+    background-color:  var(--corfundoh1);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 40px 100px 10px 100px;
+    font-size: 27px;
+  }
+
+  h3{
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: var(--corfundomain) ;
+    text-decoration-color: var(--corfundoh1) ;
+  }
+
+  p, i{
+    background-color: var(--corfundomain);
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  table{
+    display: block;
+  }
+
+  #form1> label{
+
+    display: inline;
+  }
+   
+  #form1>input{
+   display: inline;
+  }
+
+  #form2> label{
+    display: inline;
+  }
+
+  #form2>input{
+    display: inline;
+  }
+
+  #final{
+    font-size:15px; 
+    text-align: center; 
+    margin-top: 70px; 
+    background-color: var(--corfundoh1 ); 
+    padding: 10px; 
+    color: white; 
+    font-weight: bold; 
+    font-style: italic;
+  }
+
+  .foto{
+    max-width: 400px;
+    min-width: 200px;
+    display: block;
+    margin: auto;
+
+  }
+
+  .negrito{
+    font-weight: bold;
+    display: inline;
+    background-color: var(--corfundomain);
+  }
+
+  #fotocurio{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--corfundomain);
+  }
+
+  #distrib{
+    background-color: var(--corfundomain);
+  }
+
+  #curio > ul > li {
+    background-color: var(--corfundomain);
+  }
+
+
+  #distrib > h3{
+    position: top;
+  }
+
+  #curio {
+    max-width: 400px;
+  }
+
+  #curio > h3{
+    position: top;
+  }
+
+  #distrimg{
+    max-width: 200px;
+    min-width: 200px;
+    padding-left : 40px;
+    background-color: var(--corfundomain);
+  }
+
+  #mapaexterno{
+    background-color: var(--corfundomain);
+    margin: auto;
+  }
+
+  #mapa{
+    background-color: var(--corfundomain);
+  }
+
+  #mapaexterno > h3{
+    margin: 20px 0px 20px 0px;
+  }
+
+  li{
+    padding: 10px;
+  }
+
+  a{
+    background-color: var(--corfundoh1);
+    padding: 7px;
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+
+  a:hover{
+    padding: 12px;
+    font-weight: bold;
+    transition-duration: 350ms;
+  }
