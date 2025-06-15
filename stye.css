@@ -99,7 +99,7 @@ main{
     min-width: 200px;
     display: block;
     margin: auto;
-
+    box-shadow: 8px 0px 10px gray;
   }
 
   .negrito{
@@ -112,6 +112,7 @@ main{
     display: flex;
     justify-content: space-between;
     background-color: var(--corfundomain);
+ 
   }
 
   #distrib{
@@ -149,6 +150,7 @@ main{
 
   #mapa{
     background-color: var(--corfundomain);
+    box-shadow: 8px 0px 10px gray;
   }
 
   #mapaexterno > h3{
@@ -159,15 +161,39 @@ main{
     padding: 10px;
   }
 
-  a{
+  .dropdown {
     background-color: var(--corfundoh1);
-    padding: 7px;
-    color: whitesmoke;
-    text-decoration: underline;
+    padding: 8px;
+    width: 50px;
+    text-decoration: none;
+    margin-bottom: 10px;
   }
 
-  a:hover{
-    padding: 12px;
-    font-weight: bold;
-    transition-duration: 350ms;
+  .dropdown > p {
+    color: rgb(255, 255, 255);
+    background-color: var(--corfundoh1);
+    cursor: default;
   }
+
+  .content a{
+    display: none;
+    padding: 12px;
+    background-color: var(--corfundoh1);
+    opacity: 70%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 150px;
+  }
+
+  .content{
+    position: absolute;
+  }
+
+   .dropdown:hover > .content> a{
+    display: block;
+  }
+
+  .content> a:hover{
+    background-color: green;
+  }
+
