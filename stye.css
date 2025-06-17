@@ -7,6 +7,12 @@
 
 }
 
+@media screen and (max-width: 480px) {
+   main, .content, .dropdown, .foto, .negrito, #foto{
+    width: auto;
+   }
+}
+
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -57,6 +63,7 @@ main{
   #container{
     display: flex;
     height: 300px;
+    width: 100%;
   }
   #form1{
     width: 400px;
@@ -146,11 +153,13 @@ main{
   #mapaexterno{
     background-color: var(--corfundomain);
     margin: auto;
+  
   }
 
   #mapa{
     background-color: var(--corfundomain);
     box-shadow: 8px 0px 10px gray;
+    width: 100%;
   }
 
   #mapaexterno > h3{
